@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity3">
+
+
+    <WebView
+        android:id="@+id/covid"
+
+        android:layout_width="match_parent"
+        android:layout_height="673dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"/>
+
+    <Button
+        android:id="@+id/b7"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="248dp"
+        android:background="#394FED"
+        android:foreground="@drawable/hp"
+        android:text="Helpline no"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="240dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#09780F"
+        android:foreground="@drawable/ahh"
+        android:text="Animal Helpline" />
+
+    <Button
+        android:id="@+id/b90"
+        android:layout_width="170dp"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginLeft="117dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginRight="123dp"
+        android:background="#EF1E1E"
+        android:foreground="@drawable/fg2"
+        android:text="Search by Patient No" />
+
+
+</RelativeLayout>
